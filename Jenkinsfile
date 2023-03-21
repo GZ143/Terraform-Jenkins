@@ -4,8 +4,8 @@ pipeline {
         booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically run apply after generating plan?')
     } 
     environment {
-        Username = CICD-User
-        Password = aX43*1@]
+        Username = 'CICD-User'
+        Password = 'aX43*1@]'
     }
 
    agent  any
